@@ -11,7 +11,7 @@ a{
 header{
     display:flex;
     height:80x;
-    background-color: blue;
+    background-color: #1A237E;
     color: white;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,21 @@ nav a{
 
 .container {
     display:flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.info{
+    margin:40px auto;
+    width:70%;
+}
+
+.texto_box{
+    color:white;
+}
+
+.logo2{
+    max-width: 380px;
+    float:right;
+    margin-left:20px ;
 }
